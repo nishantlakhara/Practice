@@ -19,7 +19,7 @@ public class JavaFileProcessor {
 	public static void main(String[] args) throws IOException {
 
 		
-		String filePath = "/Users/admin/Documents/Geneva_Phase2_1_NewAPIcopy/src/com/abcd/ist/abc.java;
+		String filePath = "/Users/admin/Documents/Geneva_Phase2_1_NewAPIcopy/src/com/abcd/ist/abc.java";
 		String outputPath = "/Users/admin/Documents/CacheTests.java";
 
 		parseFileLowerCase();
