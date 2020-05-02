@@ -82,7 +82,7 @@ public class KnapSackProblemBruteForce {
         dataList.add(new Data("Machaan", 3000, 1));
         dataList.add(new Data("Speakers and accesories", 15000, 1));
 
-        System.out.println(knapSack(6,
+        System.out.println(knapSack(4,
                 dataList.stream().toArray(Data[]::new),
                 dataList.size(),
                 new ArrayList<Data>()));
