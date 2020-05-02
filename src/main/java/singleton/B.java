@@ -3,6 +3,6 @@ package singleton;
 public class B extends A {
 
     private B() {
-        super();
+        super(B.class);
     }
 }
