@@ -15,54 +15,7 @@ public class KnapSackProblemBruteForce {
         test2();
     }
 
-    static class Data {
-        String item;
-        int value;
-        int weight;
 
-        public Data(String item, int value, int weight) {
-            this.item = item;
-            this.value = value;
-            this.weight = weight;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            Data data = (Data) o;
-            return value == data.value &&
-                    weight == data.weight &&
-                    Objects.equals(item, data.item);
-        }
-
-        @Override
-        public int hashCode() {
-
-            return Objects.hash(item, value, weight);
-        }
-
-        public String getItem() {
-            return item;
-        }
-
-        public int getValue() {
-            return value;
-        }
-
-        public int getWeight() {
-            return weight;
-        }
-
-        @Override
-        public String toString() {
-            return "Data{" +
-                    "item='" + item + '\'' +
-                    ", value=" + value +
-                    ", weight=" + weight +
-                    '}';
-        }
-    }
     private static void test2() {
 
         List<Data> dataList = new ArrayList<>();
@@ -208,5 +161,54 @@ public class KnapSackProblemBruteForce {
         int exclude = knapSack(w, data, n-1, list3);
 
         return Math.max(include, exclude);
+    }
+
+    static class Data {
+        String item;
+        int value;
+        int weight;
+
+        public Data(String item, int value, int weight) {
+            this.item = item;
+            this.value = value;
+            this.weight = weight;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Data data = (Data) o;
+            return value == data.value &&
+                    weight == data.weight &&
+                    Objects.equals(item, data.item);
+        }
+
+        @Override
+        public int hashCode() {
+
+            return Objects.hash(item, value, weight);
+        }
+
+        public String getItem() {
+            return item;
+        }
+
+        public int getValue() {
+            return value;
+        }
+
+        public int getWeight() {
+            return weight;
+        }
+
+        @Override
+        public String toString() {
+            return "Data{" +
+                    "item='" + item + '\'' +
+                    ", value=" + value +
+                    ", weight=" + weight +
+                    '}';
+        }
     }
 }
