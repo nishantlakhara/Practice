@@ -21,12 +21,13 @@ class SherlockAndAnagramSolution
 
         for (String input: strArr)
         {
+            System.out.println("abcdefghijklmnopqrstuvwxyz");
 
             Map<String, Integer>  hashedAnagramsDictionary = ConstructHashedAnagramsDictionary(input);
 
             int pairs = CalculatePairs(hashedAnagramsDictionary);
 
-            System.out.println("String == " + input + ",Pairs ==" + pairs);
+            System.out.println("String=" + input + "\t\tPairs ==" + pairs);
         }
     }
 
@@ -65,6 +66,7 @@ class SherlockAndAnagramSolution
         {
             char current = input.charAt(start);
             int charIndex = current - 'a';
+            //System.out.print(current);
 
             for (int index = start; index < length; index++)
             {
@@ -113,14 +115,25 @@ class SherlockAndAnagramSolution
 
         // frequency table memo is using time O(N * N)
         int[][] fequencyTableMemo = PrepareFequencyTableForOnlyNSubstring(input);
+//        for(int i=0 ; i<fequencyTableMemo.length; i++) {
+//            for(int j=0; j<fequencyTableMemo[i].length; j++) {
+//                System.out.print(fequencyTableMemo[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+//        System.out.println("Frequency table");
 
         for (int start = 0; start < length; start++)
         {
             for (int substringLength = 1; start + substringLength <= length; substringLength++)
             {
                 int[] frequencyData = CalculateSubstringFequencyDiff(fequencyTableMemo, start, substringLength);
+//                for(int i=0; i<frequencyData.length; i++) {
+//                    System.out.print(frequencyData[i] + " ");
+//                }
+//                System.out.println();
 
-                String key = HashedAnagramString.GetHashedAnagram(frequencyData);
+                String key = GetHashedAnagram(frequencyData);
 
                 // At most there are O(N*N) entry in the dictionary, go over once
                 if (hashedAnagramsDictionary.containsKey(key))
@@ -138,6 +151,32 @@ class SherlockAndAnagramSolution
     }
 
     /*
+     * Make sure that two anagram strings will have some hashed code
+     *
+     * @frequencyTable - Dictionary<char, int>
+     * The frequency table has to be sorted first and then construct
+     * a string with each char in alphabetic numbers concatenated by
+     * its occurrences.
+     *
+     */
+    public static String GetHashedAnagram(int[] frequencyTable)
+    {
+        StringBuilder key = new StringBuilder();
+
+        for (int i = 0; i < 26; i++)
+        {
+            int value = frequencyTable[i];
+            if (value > 0)
+            {
+                char c = (char)(i + 'a');
+                key.append(c + value);
+            }
+        }
+
+        return key.toString();
+    }
+
+    /*
      *
      * @start - substring' start position in the original string
      * @length - substring's length
@@ -145,15 +184,21 @@ class SherlockAndAnagramSolution
      */
     public static int[] CalculateSubstringFequencyDiff(int[][] fequencyTableMemo, int start, int length)
     {
+//        System.out.println("Start = " + start + "\tlength = " + length);
     final int size = 26;
         int[] difference = new int[size];
 
         for (int i = 0; i < size; i++)
         {
             difference[i] = fequencyTableMemo[start + length - 1][i];
+//            System.out.println("diff[" + i + "]" + difference[i]);
+//            System.out.println("fequencyTableMemo[" + (start + length - 1) + " ][" + i + "] " + fequencyTableMemo[start + length - 1][i]);
             if (start > 0)
             {
+//                System.out.println("fequencyTableMemo[" + (start-1) + "][" + i + "] " + fequencyTableMemo[start-1][i]);
+
                 difference[i] -= fequencyTableMemo[start-1][i];
+//                System.out.println("diff[" + i + "]" + difference[i]);
             }
         }
 
