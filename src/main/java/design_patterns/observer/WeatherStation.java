@@ -1,4 +1,4 @@
-package observer;
+package design_patterns.observer;
 
 public class WeatherStation {
 	public static void main(String[] args) {

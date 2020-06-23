@@ -1,4 +1,4 @@
-package singleton;
+package design_patterns.singleton;
 
 public class B extends A {
 

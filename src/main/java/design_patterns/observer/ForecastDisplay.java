@@ -1,22 +1,21 @@
-package observer;
+package design_patterns.observer;
 
-public class StatisticsDisplay implements Observer, DisplayElement { 
-	private float temperature;
-	private float humidity;
-	private Subject weatherData;
+public class ForecastDisplay implements Observer, DisplayElement { private float temperature;
+private float humidity;
+private Subject weatherData;
 
 	
 
-	public StatisticsDisplay(WeatherData weatherData) {
+	public ForecastDisplay(WeatherData weatherData) {
 		this.weatherData = weatherData;
-		weatherData.registerObserver(this);
+		weatherData.registerObserver(this);	
 	}
 
 
 
 	@Override
 	public void display() {
-		System.out.println("1111111111111111111");
+		System.out.println("000000000000000000000");
 		System.out.println("Current conditions: " + temperature
 				+ "F degrees and " + humidity + "% humidity"); 
 		
