@@ -1,6 +1,6 @@
-package design_patterns.mediator;
+package designpatterns.mediator;
 
-import design_patterns.state.DurationUtil;
+import designpatterns.state.DurationUtil;
 
 public class Main {
     public static void main(String[] args) {

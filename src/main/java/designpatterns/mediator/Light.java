@@ -1,4 +1,4 @@
-package design_patterns.mediator;
+package designpatterns.mediator;
 
 public class Light {
     private String color;

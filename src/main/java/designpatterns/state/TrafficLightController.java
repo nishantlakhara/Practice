@@ -1,4 +1,4 @@
-package design_patterns.state;
+package designpatterns.state;
 
 public class TrafficLightController {
     TrafficLight trafficLight;

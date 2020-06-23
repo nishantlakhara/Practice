@@ -1,4 +1,4 @@
-package design_patterns.mediator;
+package designpatterns.mediator;
 
 import java.util.ArrayList;
 import java.util.List;

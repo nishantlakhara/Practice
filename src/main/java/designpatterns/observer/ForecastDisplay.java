@@ -1,4 +1,4 @@
-package design_patterns.observer;
+package designpatterns.observer;
 
 public class ForecastDisplay implements Observer, DisplayElement { private float temperature;
 private float humidity;

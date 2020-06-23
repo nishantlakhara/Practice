@@ -1,14 +1,14 @@
-package design_patterns.state;
+package designpatterns.state;
 
-public class YellowLight implements TrafficLight {
+public class RedLight implements TrafficLight {
     @Override
     public void changeState(TrafficLightController trafficLightController) {
         //DurationUtil.addSleepDuration(1000);
-        trafficLightController.setState(new GreenLight());
+        trafficLightController.setState(new YellowLight());
     }
 
     @Override
     public void reportState() {
-        System.out.println("Yellow Light");
+        System.out.println("Red Light");
     }
 }
