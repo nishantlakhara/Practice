@@ -12,6 +12,8 @@ public class OptionalUsage {
 
         optionalNullable(Optional.ofNullable(null));
 
+        optionalNullable(Optional.empty());
+
         optionalNullable(Optional.ofNullable(Collections.emptyList()));
     }
 
