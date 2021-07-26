@@ -10,7 +10,6 @@ public class Node {
 
     public Node(String name) {
         this.name = name;
-        children = new ArrayList<>();
     }
 
     public Node(String name, List<Node> children) {
