@@ -26,5 +26,13 @@ class Test3 {
     public int age;
 }
 
+//Photo 3
+//Dad -1
+//Priyanka -1
+//Aadhar
+//Birth
+//7000
+//Email id
+
 
 

@@ -21,10 +21,7 @@ public class RunwayProcessor {
                         Plane plane = planesPriorityQueue.poll();
                         try {
                             Thread.sleep(1000);
-                            if (plane.isEmergency)
-                                System.out.println("Emergency Plane successfully landed " + plane);
-                            else
-                                System.out.println("Plane successfully landed " + plane);
+                            RunwayProcessor.log(plane);
 
                         } catch (InterruptedException e) {
                             e.printStackTrace();
@@ -39,12 +36,17 @@ public class RunwayProcessor {
         t.start();
     }
 
+    public static void log(Plane plane) {
+        if (plane.isEmergency)
+            System.out.println("Emergency Plane successfully landed " + plane);
+        else
+            System.out.println("Plane successfully landed " + plane);
+    }
+
     public void push(Plane plane) {
         planesPriorityQueue.add(plane);
     }
-
-
-
+    
     public static void main(String[] args) {
         RunwayProcessor processor = new RunwayProcessor();
         processor.initialize();
