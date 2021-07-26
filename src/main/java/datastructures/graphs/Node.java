@@ -53,7 +53,6 @@ public class Node {
     public String toString() {
         return "Node{" +
                 "name='" + name + '\'' +
-                ", children=" + children +
                 ", visited=" + visited +
                 '}';
     }
