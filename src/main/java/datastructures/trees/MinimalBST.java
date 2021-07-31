@@ -18,8 +18,8 @@ public class MinimalBST {
         }
         int mid = (start + end)/2;
         Node node = new Node(arr[mid]);
-        node.left = createMinimalBST(arr, start, mid-1);
-        node.right = createMinimalBST(arr, mid+1, end);
+        node.setLeft(createMinimalBST(arr, start, mid-1));
+        node.setRight(createMinimalBST(arr, mid+1, end));
         return node;
     }
 }
