@@ -8,30 +8,11 @@ public class MinimalBST {
         Node minimalBST = createMinimalBST(arr, 0, arr.length-1);
 
         StringBuilder sb = new StringBuilder();
-        traversePreOrder(sb, "", "", minimalBST);
+        TreeUtils.traversePreOrder(sb, "", "", minimalBST);
         System.out.println(sb.toString());
     }
 
-    public static void traversePreOrder(StringBuilder sb, String padding, String pointer, Node node) {
-        if (node != null) {
-            sb.append(padding);
-            sb.append(pointer);
-            sb.append(node.getValue());
-            sb.append("\n");
-
-            StringBuilder paddingBuilder = new StringBuilder(padding);
-            paddingBuilder.append("│  ");
-
-            String paddingForBoth = paddingBuilder.toString();
-            String pointerForRight = "└──";
-            String pointerForLeft = (node.getRight() != null) ? "├──" : "└──";
-
-            traversePreOrder(sb, paddingForBoth, pointerForLeft, node.getLeft());
-            traversePreOrder(sb, paddingForBoth, pointerForRight, node.getRight());
-        }
-    }
-
-    private static Node createMinimalBST(int[] arr, int start, int end) {
+    public static Node createMinimalBST(int[] arr, int start, int end) {
         if(start > end) {
             return null;
         }
