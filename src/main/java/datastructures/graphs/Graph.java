@@ -1,14 +1,16 @@
 package datastructures.graphs;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Graph {
     private List<Node> nodes;
+    private Map<Node, Node> nodeMap = new HashMap<>();
     private final Map<Node, List<Node>> nodeToImmediateChildrenMap = new HashMap<>();
     private final Map<Node, List<Node>> nodeToIncomingEdgeMap = new HashMap<>();
+
+    public Map<Node, Node> getNodeMap() {
+        return nodeMap;
+    }
 
     public Graph() { this.nodes = new ArrayList<>(); }
 
@@ -20,6 +22,7 @@ public class Graph {
         nodeToImmediateChildrenMap.putIfAbsent(node, new ArrayList<>());
         nodeToIncomingEdgeMap.putIfAbsent(node, new ArrayList<>());
         nodes.add(node);
+        nodeMap.put(node, node);
         return this;
     }
 
@@ -27,6 +30,9 @@ public class Graph {
         nodes.forEach(n -> nodeToImmediateChildrenMap.putIfAbsent(n, new ArrayList<>()));
         nodes.forEach(n -> nodeToIncomingEdgeMap.putIfAbsent(n, new ArrayList<>()));
         this.nodes.addAll(nodes);
+        for (Node node: nodes) {
+            nodeMap.put(node, node);
+        }
         return this;
     }
 
@@ -41,11 +47,12 @@ public class Graph {
     }
 
     public List<Node> getNode(String nodeStr) {
-        return nodeToImmediateChildrenMap.get(nodeStr);
+        List<Node> n = nodeToImmediateChildrenMap.get(new Node(nodeStr));
+        return n;
     }
 
     public List<Node> getIncomingNode(String nodeStr) {
-        return nodeToIncomingEdgeMap.get(nodeStr);
+        return nodeToIncomingEdgeMap.get(new Node(nodeStr));
     }
 
     public List<Node> getNode(Node node) {
@@ -61,6 +68,14 @@ public class Graph {
     }
 
     public void removeFromIncomingAgeMap(Node node) {
-        nodeToIncomingEdgeMap.remove(node);
+        List<Node> nodes = nodeToImmediateChildrenMap.get(node);
+        for(Node n: nodes) {
+            nodeToIncomingEdgeMap.get(n).remove(node);
+        }
     }
+
+    public Node getNodeFromGraph(String nodeStr) {
+        return nodeMap.get(new Node(nodeStr));
+    }
+
 }
