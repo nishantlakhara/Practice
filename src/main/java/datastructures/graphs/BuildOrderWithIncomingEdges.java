@@ -5,7 +5,7 @@ import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
 
 //Built by me. May lose some edge cases.
-public class BuildOrderWithTopologicalSort {
+public class BuildOrderWithIncomingEdges {
     public static void main(String[] args) {
         List<String> projects = Arrays.asList("a", "b", "c", "d", "e", "f", "g");
         List<String[]> dependencies = Arrays.asList(
