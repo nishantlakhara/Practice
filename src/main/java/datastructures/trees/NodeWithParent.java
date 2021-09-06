@@ -17,6 +17,7 @@ public class NodeWithParent {
         this.parent = parent;
     }
 
+
     public int getValue() {
         return value;
     }

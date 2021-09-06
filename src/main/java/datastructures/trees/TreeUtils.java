@@ -21,4 +21,24 @@ public class TreeUtils {
             traversePreOrder(sb, paddingForBoth, pointerForRight, node.getRight());
         }
     }
+
+    public static void traversePreOrderWithParent(StringBuilder sb, String padding, String pointer, NodeWithParent node) {
+        if (node != null) {
+            sb.append(padding);
+            sb.append(pointer);
+            sb.append(node.getValue());
+            sb.append("\n");
+
+            StringBuilder paddingBuilder = new StringBuilder(padding);
+            paddingBuilder.append("│  ");
+
+            String paddingForBoth = paddingBuilder.toString();
+            String pointerForRight = "└──";
+            String pointerForLeft = (node.getRight() != null) ? "├──" : "└──";
+
+            traversePreOrderWithParent(sb, paddingForBoth, pointerForLeft, node.getLeft());
+            traversePreOrderWithParent(sb, paddingForBoth, pointerForRight, node.getRight());
+        }
+    }
+
 }
