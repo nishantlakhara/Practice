@@ -8,16 +8,14 @@ public class KnapSackProblemBruteForce {
     private static List<Data> finalDataList = new ArrayList<>();
     private static Map<Integer, List<List<Data>>> finalDataMap = new HashMap<>();
 
-
     public static void main(String args[])
     {
-        test1();
-        test2();
+        //test1();
+        //test2();
+        test3();
     }
 
-
     private static void test2() {
-
         List<Data> dataList = new ArrayList<>();
         dataList.add(new Data("Table", 500, 1));
         dataList.add(new Data("Chair", 6500, 1));
@@ -35,7 +33,33 @@ public class KnapSackProblemBruteForce {
         dataList.add(new Data("Machaan", 3000, 1));
         dataList.add(new Data("Speakers and accesories", 15000, 1));
 
-        System.out.println(knapSack(4,
+        System.out.println(knapSack(7,
+                dataList.stream().toArray(Data[]::new),
+                dataList.size(),
+                new ArrayList<Data>()));
+        finalDataList.forEach(System.out::println);
+        System.out.println("All combinations");
+        final AtomicInteger count = new AtomicInteger();
+        finalDataMap.get(max).forEach(
+                l -> {
+                    System.out.println("==========List " + count.incrementAndGet());
+                    System.out.println("List size == " + l.size());
+                    l.stream().forEach(System.out::println);
+                }
+        );
+    }
+
+    private static void test3() {
+        List<Data> dataList = new ArrayList<>();
+        dataList.add(new Data("Reliance", 4, 2000));
+        dataList.add(new Data("HDFC Bank", 5, 1500));
+        dataList.add(new Data("HDFC", 6, 2800));
+        dataList.add(new Data("TCS", 7, 3800));
+        dataList.add(new Data("Infosys", 3, 1600));
+        dataList.add(new Data("Wipro", 1, 700));
+        dataList.add(new Data("SBI Life Insurance", 2, 1200));
+
+        System.out.println(knapSack(11000,
                 dataList.stream().toArray(Data[]::new),
                 dataList.size(),
                 new ArrayList<Data>()));
