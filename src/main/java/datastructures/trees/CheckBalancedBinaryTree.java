@@ -103,8 +103,6 @@ public class CheckBalancedBinaryTree {
         System.out.println(checkBalancedBinaryTree(rootNode));
     }
 
-
-
     private static void print(Node rootNode) {
         StringBuilder sb = new StringBuilder();
         TreeUtils.traversePreOrder(sb, "", "", rootNode);
