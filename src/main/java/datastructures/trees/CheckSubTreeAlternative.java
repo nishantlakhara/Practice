@@ -11,11 +11,11 @@ public class CheckSubTreeAlternative {
         // Tree 3 i.e not a subtree.
         Node t3 = tree3();
 
-        System.out.println(containsTrue(t1, t2));
-        System.out.println(containsTrue(t1, t3));
+        System.out.println(containsTree(t1, t2));
+        System.out.println(containsTree(t1, t3));
     }
 
-    private static boolean containsTrue(Node t1, Node t2) {
+    private static boolean containsTree(Node t1, Node t2) {
         if(t2 == null) return false;
         return subTree(t1, t2);
     }
