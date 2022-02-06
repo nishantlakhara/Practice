@@ -62,9 +62,10 @@ public class BuildOrderWithDFSOrTopologicalSort {
         return graph;
     }
 
-    private static BiConsumer<Graph, String[]> addDependency = (g, arr) ->
-    {
+    private static BiConsumer<Graph, String[]> addDependency = (g, arr) -> {
         g.getNodeFromGraph(arr[0]).addChildren(g.getNodeFromGraph(arr[1]));
     };
 
 }
+
+
