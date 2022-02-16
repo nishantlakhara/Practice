@@ -1,4 +1,4 @@
-package datastructures.trie;
+package datastructures.trie.basic;
 
 import java.io.*;
 import java.util.List;
