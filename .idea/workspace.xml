@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1f8469c-88d3-45f1-8c72-1ad7b26dca52" name="Default" comment="trees problems">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_jdbc_ucp_12_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/bitwise/BitwiseOperationsSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/trees/CheckSuBTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/trees/CheckSubTreeAlternative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b1f8469c-88d3-45f1-8c72-1ad7b26dca52" name="Default" comment="some leetcode practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/dynamicprogramming/MaximumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/LongestIncreasingPathMatrixDFSBruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/LongestIncreasingPathMatrixDFSDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/LongestIncreasingPathMatrixTopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/kadane/MaximumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/LengthOfLongestSubstringTwoDistinct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/trees/CheckBalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/trees/CheckBalancedBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +108,7 @@
       <recent name="TreeUtils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckSubTreeAlternative">
+  <component name="RunManager" selected="Application.LongestIncreasingPathMatrixDFSBruteForce">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -167,13 +157,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="BitwiseOperationsSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.bitwise.BitwiseOperationsSheet" />
+    <configuration name="ConversionUtilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversion.ConversionUtilities" />
       <module name="Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.bitwise.*" />
+          <option name="PATTERN" value="conversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckSuBTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.trees.CheckSuBTree" />
+    <configuration name="LongestIncreasingPathMatrixDFSBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.graphs.LongestIncreasingPathMatrixDFSBruteForce" />
       <module name="Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.trees.*" />
+          <option name="PATTERN" value="leetcode.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,13 +185,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckSubTreeAlternative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.trees.CheckSubTreeAlternative" />
+    <configuration name="LuxoftTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuxoftTest" />
+      <module name="Practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumDifference (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.kadane.MaximumDifference" />
       <module name="Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.trees.*" />
+          <option name="PATTERN" value="leetcode.kadane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,27 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapSackProblemBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.KnapSackProblemBruteForce" />
+    <configuration name="MaximumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.MaximumDifference" />
       <module name="Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KnapsackPortfolio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.KnapsackPortfolio" />
-      <module name="Practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="PATTERN" value="leetcode.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckSubTreeAlternative" />
-        <item itemvalue="Application.CheckSuBTree" />
-        <item itemvalue="Application.BitwiseOperationsSheet" />
-        <item itemvalue="Application.KnapsackPortfolio" />
-        <item itemvalue="Application.KnapSackProblemBruteForce" />
+        <item itemvalue="Application.LongestIncreasingPathMatrixDFSBruteForce" />
+        <item itemvalue="Application.MaximumDifference (1)" />
+        <item itemvalue="Application.MaximumDifference" />
+        <item itemvalue="Application.ConversionUtilities" />
+        <item itemvalue="Application.LuxoftTest" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +351,28 @@
       <option name="project" value="LOCAL" />
       <updated>1631540765482</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="check subtree">
+      <created>1632652001384</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632652001384</updated>
+    </task>
+    <task id="LOCAL-00013" summary="check subtree alternative">
+      <created>1633082347094</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1633082347094</updated>
+    </task>
+    <task id="LOCAL-00014" summary="some leetcode practice">
+      <created>1645027465958</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645027465958</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -425,7 +430,10 @@
     <MESSAGE value="tree algos check balanced" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="trees problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="trees problems" />
+    <MESSAGE value="check subtree" />
+    <MESSAGE value="check subtree alternative" />
+    <MESSAGE value="some leetcode practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="some leetcode practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,6 +442,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/datastructures/trees/FirstCommonAncestorBinaryTreeWithParentLinkWithBetterWorstCaseComplexity.java</url>
           <line>57</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrays/Rotate.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
