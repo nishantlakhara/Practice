@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1f8469c-88d3-45f1-8c72-1ad7b26dca52" name="Default" comment="some leetcode practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/dynamicprogramming/MaximumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/LongestIncreasingPathMatrixDFSBruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/LongestIncreasingPathMatrixDFSDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/LongestIncreasingPathMatrixTopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/kadane/MaximumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/LengthOfLongestSubstringTwoDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/CourseSchedule2DFSAndStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/graphs/CourseSchedule2TopologicalSortUsingIndegree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -372,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645027465958</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="some leetcode practice">
+      <created>1646476126483</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1646476126483</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
