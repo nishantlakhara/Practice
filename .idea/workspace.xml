@@ -104,7 +104,7 @@
       <recent name="TreeUtils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingPathMatrixDFSBruteForce">
+  <component name="RunManager" selected="Application.DecodeString">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -167,6 +167,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.DecodeString" />
+      <module name="Practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestIncreasingPathMatrixDFSBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.graphs.LongestIncreasingPathMatrixDFSBruteForce" />
       <module name="Practice" />
@@ -177,14 +191,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LuxoftTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LuxoftTest" />
-      <module name="Practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.LongestIncreasingPathMatrixDFSBruteForce" />
         <item itemvalue="Application.MaximumDifference (1)" />
         <item itemvalue="Application.MaximumDifference" />
         <item itemvalue="Application.ConversionUtilities" />
-        <item itemvalue="Application.LuxoftTest" />
       </list>
     </recent_temporary>
   </component>
