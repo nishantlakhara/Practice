@@ -1,13 +1,16 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 
 public class ArrayUtilities {
 	public static void main(String[] args) throws IOException {
+		sort2dArrayRowWise();
+
 		List<String>[] list = init();
 		
 		List<String> array1 = list[0];
@@ -36,6 +39,7 @@ public class ArrayUtilities {
 				}
 			}
 		}
+
 	}
 	
 	public static List<String>[] init() throws IOException {
@@ -65,5 +69,23 @@ public class ArrayUtilities {
 		List<String> list[] = new List[] {array1, array2};
 		return list;
 		
+	}
+
+	public static void sort2dArrayRowWise() {
+		System.out.println("================sort2dArrayRowWise");
+		int[][] intervals = {
+				{3,4},
+				{1,4},
+				{0,4},
+				{2,5},
+				{2,4},
+				{3,5}
+		};
+		//Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+		Arrays.sort(intervals, Comparator.comparing(a -> ((int[])a)[1])
+											.thenComparing(a -> ((int[])a)[0]));
+		Arrays.stream(intervals)
+				.forEach(entry -> System.out.println(entry[0] + "," + entry[1]));
+		System.out.println("================");
 	}
 }

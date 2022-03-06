@@ -10,6 +10,8 @@ public class ConversionUtilities {
 
         convertToSet();
 
+        convertAlphatoIndexInt();
+
         // sorting primitive array int[] in descending order
         int[] squares = { 4, 25, 9, 36, 49 };
         System.out.println("int[] array before sorting : " + Arrays.toString(squares));
@@ -19,6 +21,17 @@ public class ConversionUtilities {
         reverse(squares);
         System.out.println("Sorted array in descending order : " + Arrays.toString(squares));
 
+    }
+
+    private static void convertAlphatoIndexInt() {
+        System.out.println("-----------------convertAlphatoIndexInt--------------");
+        char c = 'a';
+        int i = c - 'a';
+        System.out.println(i);
+        c = 'b';
+        i = c - 'a';
+        System.out.println(i);
+        System.out.println("-------------------------------");
     }
 
     public static void reverse(int[] input) {
