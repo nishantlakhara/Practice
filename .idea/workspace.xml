@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1f8469c-88d3-45f1-8c72-1ad7b26dca52" name="Default" comment="some leetcode practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/google/FlipBitMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/dynamicprogramming/TrapRunningWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/greedy/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/greedy/CandyFastestSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/maps/CowAndBulls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/binance/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/conversion/ConversionUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversion/ConversionUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/LengthOfLongestSubstringTwoDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/slidingwindow/LengthOfLongestSubstringTwoDistinct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,13 +97,16 @@
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/unicron-ansible_reno" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="TreeUtils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConversionUtilities">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -194,13 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.DecodeString" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binance.Test" />
       <module name="Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="PATTERN" value="binance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ConversionUtilities" />
         <item itemvalue="Application.TrapRunningWater" />
         <item itemvalue="Application.ComparatorUtilities" />
         <item itemvalue="Application.ArrayUtilities" />
-        <item itemvalue="Application.DecodeString" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646587367009</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="some leetcode practice">
+      <created>1647324046099</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1647324046099</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
