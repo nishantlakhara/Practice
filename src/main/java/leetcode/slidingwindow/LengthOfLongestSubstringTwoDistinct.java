@@ -5,33 +5,39 @@ import java.util.HashMap;
 
 public class LengthOfLongestSubstringTwoDistinct {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
-        int n = s.length();
-        if (n < 3) return n;
+        //Base case
+        if(s.length() < 3) {
+            return s.length();
+        }
 
-        // sliding window left and right pointers
+        //Memory
+        HashMap<Character, Integer> map = new HashMap<>();
+
+        //Return
+        int max = 2;
+
+        //Sliding window approach.
         int left = 0;
         int right = 0;
-        // hashmap character -> its rightmost position
-        // in the sliding window
-        HashMap<Character, Integer> hashmap = new HashMap<Character, Integer>();
 
-        int max_len = 2;
+        while(right < s.length()) {
 
-        while (right < n) {
-            // when the slidewindow contains less than 3 characters
-            hashmap.put(s.charAt(right), right++);
+            //Store index of the character in the map.
+            map.put(s.charAt(right), right);
 
-            // slidewindow contains 3 characters
-            if (hashmap.size() == 3) {
-                // delete the leftmost character
-                int del_idx = Collections.min(hashmap.values());
-                hashmap.remove(s.charAt(del_idx));
-                // move left pointer of the slidewindow
-                left = del_idx + 1;
+
+            //Check if sliding window contains more than 3 characters.
+            //If so remove the one wih lowest index value.
+            if(map.size() == 3) {
+                int delIndex = Collections.min(map.values());
+                map.remove(s.charAt(delIndex));
+                left = delIndex + 1;
             }
 
-            max_len = Math.max(max_len, right - left);
+            max = Math.max(max, right - left + 1);
+            right++;
         }
-        return max_len;
+
+        return max;
     }
 }

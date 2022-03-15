@@ -13,6 +13,19 @@ public class ConversionUtilities {
         convertAlphatoIndexInt();
 
         // sorting primitive array int[] in descending order
+        convertPrimitiveArrayToString();
+
+        splitAString();
+
+    }
+
+    private static void splitAString() {
+        String[] split = "a,b,null,".split(",");
+        System.out.println(split.length);
+        Arrays.stream(split).forEach(System.out::println);
+    }
+
+    private static void convertPrimitiveArrayToString() {
         int[] squares = { 4, 25, 9, 36, 49 };
         System.out.println("int[] array before sorting : " + Arrays.toString(squares));
         System.out.println("sorting array in ascending order");
@@ -20,7 +33,6 @@ public class ConversionUtilities {
         System.out.println("reversing array in place");
         reverse(squares);
         System.out.println("Sorted array in descending order : " + Arrays.toString(squares));
-
     }
 
     private static void convertAlphatoIndexInt() {
