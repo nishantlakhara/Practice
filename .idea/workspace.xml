@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1f8469c-88d3-45f1-8c72-1ad7b26dca52" name="Default" comment="some leetcode practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/graphs/FlightWithinBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_jdbc_ucp_12_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binance/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviews/binance/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/bookstore/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/bookstore/Bookstore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/AssertType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/AssertsType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/ParamType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/ParamsType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestCaseType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestClassType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestClassesType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestMethodType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testing/FailureProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testing/TP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/ErrorType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/FailureType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/TestcaseType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/TestsuiteType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/ScenarioType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/UseCaseType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/UseCasesType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/PersonInfoType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/main/BookstoreExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/main/JAXBExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/trees/RandomNodeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/trees/RandomNodeFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/graphs/NearestClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/graphs/NearestClone.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1f8469c-88d3-45f1-8c72-1ad7b26dca52" name="Default" comment="some algo practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -439,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647324046099</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="some algo practice">
+      <created>1689588107497</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689588107498</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -499,7 +467,8 @@
     <MESSAGE value="check subtree" />
     <MESSAGE value="check subtree alternative" />
     <MESSAGE value="some leetcode practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="some leetcode practice" />
+    <MESSAGE value="some algo practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="some algo practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
