@@ -40,6 +40,8 @@ public class ArrayUtilities {
 			}
 		}
 
+		testListEquals();
+
 	}
 	
 	public static List<String>[] init() throws IOException {
@@ -87,5 +89,31 @@ public class ArrayUtilities {
 		Arrays.stream(intervals)
 				.forEach(entry -> System.out.println(entry[0] + "," + entry[1]));
 		System.out.println("================");
+	}
+
+	public static void testListEquals() {
+		List<String> s1Arr = new ArrayList<>();
+		s1Arr.add("A");
+		s1Arr.add("B");
+		s1Arr.add("C");
+		s1Arr.add("D");
+
+		List<String> s2Arr = new ArrayList<>();
+		s2Arr.add("A");
+		s2Arr.add("B");
+		s2Arr.add("C");
+		s2Arr.add("D");
+
+		List<String> s3Arr = new ArrayList<>();
+		s3Arr.add("A");
+		s3Arr.add("B");
+		s3Arr.add("D");
+		s3Arr.add("C");
+
+
+		System.out.println(s1Arr.equals(s2Arr));
+		System.out.println(s1Arr.equals(s3Arr));
+
+
 	}
 }

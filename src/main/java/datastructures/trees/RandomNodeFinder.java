@@ -1,9 +1,5 @@
 package datastructures.trees;
 
-import sun.reflect.generics.tree.Tree;
-
-import java.util.Random;
-
 public class RandomNodeFinder {
     public static void main(String[] args) {
         int[] arr = {50,40,25,60,70,65,55,44,11,22,33,55,77,88};

@@ -5,8 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1f8469c-88d3-45f1-8c72-1ad7b26dca52" name="Default" comment="some leetcode practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/binance/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/graphs/FlightWithinBudget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/linkedlist/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_jdbc_ucp_12_1_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/binance/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviews/binance/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/bookstore/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/bookstore/Bookstore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/AssertType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/AssertsType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/ParamType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/ParamsType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestCaseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestClassType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestClassesType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/scenario/TestMethodType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testing/FailureProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testing/TP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/ErrorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/FailureType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/TestcaseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/testjunit/TestsuiteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/ScenarioType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/UseCaseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxb/usecase/UseCasesType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/PersonInfoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/main/BookstoreExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/main/JAXBExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaxbsample/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/trees/RandomNodeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/trees/RandomNodeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/graphs/NearestClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/graphs/NearestClone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +56,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Practice" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,6 +86,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="255" />
@@ -95,6 +131,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/unicron-ansible_reno" />
     <property name="project.structure.last.edited" value="Project" />
@@ -102,11 +140,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="leetcode.linkedlist" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="TreeUtils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.FlightWithinBudget">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -163,20 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorUtilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.ComparatorUtilities" />
-      <module name="Practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConversionUtilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conversion.ConversionUtilities" />
       <module name="Practice" />
@@ -191,13 +218,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binance.Test" />
+    <configuration name="FlightWithinBudget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.graphs.FlightWithinBudget" />
       <module name="Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binance.*" />
+          <option name="PATTERN" value="datastructures.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviews.binance.Test" />
+      <module name="Practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviews.binance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlightWithinBudget" />
+        <item itemvalue="Application.ArrayUtilities" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ConversionUtilities" />
         <item itemvalue="Application.TrapRunningWater" />
-        <item itemvalue="Application.ComparatorUtilities" />
-        <item itemvalue="Application.ArrayUtilities" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +480,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">

@@ -1,4 +1,4 @@
-package binance;
+package interviews.binance;
 import java.util.*;
 
 public class Test {
