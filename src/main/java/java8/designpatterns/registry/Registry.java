@@ -50,6 +50,8 @@ public interface Registry {
 }
 */
 
+
+// Very secure, robust and performant. Even with reflection apis, you cannot get references.
 public interface Registry<T> {
 
     Factory<? extends T> buildShapeRegistry(String shape);
