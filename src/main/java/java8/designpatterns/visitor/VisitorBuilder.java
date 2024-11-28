@@ -4,5 +4,7 @@ import java.util.function.Function;
 
 @FunctionalInterface
 public interface VisitorBuilder<R> {
-    void register(Class<?> type, Function<Object, R> function);
+
+    // Right way to define is at method level and not at class level for consumer andThen in Visitor interface.
+    <T> void register(Class<T> type, Function<T, R> function);
 }

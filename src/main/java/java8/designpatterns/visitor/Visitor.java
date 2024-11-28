@@ -13,7 +13,7 @@ public interface Visitor<R> {
     R visit(Object o);
 
     // 4.
-    static <R> X<R> forType(Class<?> type) {
+    static <T, R> X<T, R> forType(Class<T> type) {
         // 6.
         return () -> type;
     }
@@ -21,34 +21,41 @@ public interface Visitor<R> {
     // 2.
     static <R> Visitor<R> of(Consumer<VisitorBuilder<R>> consumer) {
         Map<Class<?>, Function<Object, R>> registry = new HashMap<>();
-        consumer.accept((type, function) -> registry.put(type, function)); // OR consumer,accept(registry::put); // not so readable
+        VisitorBuilder<R> visitorBuilder = new VisitorBuilder<R>() {
+            @Override
+            public <T> void register(Class<T> type, Function<T, R> function) {
+                registry.put(type, function.compose(type::cast));
+            }
+        };
+        consumer.accept(visitorBuilder); // OR consumer,accept(registry::put); // not so readable
         System.out.println(registry);
         return o -> registry.get(o.getClass()).apply(o);
     }
 
     // 3.
-    interface X<R> {
+    // 16. Add T
+    interface X<T, R> {
 
 //        8. Consumer<VisitorBuilder<R>> -> Y<R>
-        default Y<R> execute(Function<Object, R> function) {
+        default Y<R> execute(Function<T, R> function) {
             return visitorBuilder -> visitorBuilder.register(type(), function); // Convert type to type().
         }
 
         // 5.
-        Class<?> type();
+        Class<T> type();
     }
 
     // 10.
-    interface Z<R> {
-        default Y<R> execute(Function<Object, R> function) {
+    interface Z<T, R> {
+        default Y<R> execute(Function<T, R> function) {
             return previousConsumer()
                     .andThen(visitorBuilder -> visitorBuilder.register(type(), function)); // Convert type to type().
         }
 
         // 11.
         // 14.
-        default Class<?> type() {
-            return (Class<?>) get(1);
+        default Class<T> type() {
+            return (Class<T>) get(1);
         }
 
         // 12.
@@ -64,7 +71,7 @@ public interface Visitor<R> {
     // Cannot modify consumer class in java so we can override atleast.
     // 13.
     interface Y<R> extends Consumer<VisitorBuilder<R>> {
-        default Z<R> forType(Class<?> type) {
+        default <T> Z<T, R> forType(Class<T> type) {
             return (index) -> index == 0 ? this : type;
         }
 
