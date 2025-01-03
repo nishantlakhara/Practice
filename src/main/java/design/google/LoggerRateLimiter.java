@@ -2,11 +2,11 @@ package design.google;
 
 import java.util.HashMap;
 
-class Logger {
+class LoggerRateLimiter {
     private HashMap<String, Integer> msgDict;
 
     /** Initialize your data structure here. */
-    public Logger() {
+    public LoggerRateLimiter() {
         msgDict = new HashMap<String, Integer>();
     }
 

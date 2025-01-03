@@ -1,6 +1,6 @@
 package designpatterns.mediator;
 
-import designpatterns.state.DurationUtil;
+import designpatterns.behavorial.state.trafficlight.DurationUtil;
 
 public class Main {
     public static void main(String[] args) {

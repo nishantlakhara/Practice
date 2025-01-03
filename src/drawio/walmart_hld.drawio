@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="f3Lqm0_GlcoycjGAf-BZ">
+    <mxGraphModel dx="2131" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-6" target="5XcS-FxVcRdtgo1cgTsg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-6" value="Data Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-7" target="5XcS-FxVcRdtgo1cgTsg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-7" value="BEM&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-8" target="5XcS-FxVcRdtgo1cgTsg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-8" value="Account Rules" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-9" value="Subledger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-13" target="5XcS-FxVcRdtgo1cgTsg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-13" value="Client" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-15" value="1. The client loads the reference data containing accounting rules.&lt;div&gt;2. The client would publish the events.&lt;/div&gt;&lt;div&gt;3. Data Manager will ETL these events -&amp;gt; Fastpost readable event.&lt;/div&gt;&lt;div&gt;4. ARE processes these rules.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="308" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-16" target="5XcS-FxVcRdtgo1cgTsg-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-22" value="1 Load reference data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5XcS-FxVcRdtgo1cgTsg-21">
+          <mxGeometry x="-0.1806" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-16" value="Client" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-17" target="5XcS-FxVcRdtgo1cgTsg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-23" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5XcS-FxVcRdtgo1cgTsg-19">
+          <mxGeometry x="-0.0571" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-17" value="Fastpost Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-18" target="5XcS-FxVcRdtgo1cgTsg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-18" value="" style="shape=mxgraph.cisco.storage.web_cluster;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="207" y="680" width="186" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-20" value="Hazelcast cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="778" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-25" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server_Group.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="699" width="60" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-27" target="5XcS-FxVcRdtgo1cgTsg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-31" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5XcS-FxVcRdtgo1cgTsg-30">
+          <mxGeometry x="0.0596" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-27" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
+          <mxGeometry x="510" y="540" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-16" target="5XcS-FxVcRdtgo1cgTsg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-29" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5XcS-FxVcRdtgo1cgTsg-28">
+          <mxGeometry x="0.372" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-32" value="Gaming Company&lt;div&gt;1. Online&lt;/div&gt;&lt;div&gt;2. Users all across the world&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dashboard&lt;/div&gt;&lt;div&gt;Top 10 players all around the world.&lt;/div&gt;&lt;div&gt;Top 10 players in the country.&lt;/div&gt;&lt;div&gt;Top 10 players on a particular game.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="843" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.412;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-37" target="5XcS-FxVcRdtgo1cgTsg-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="258" y="1190" />
+              <mxPoint x="250" y="1190" />
+              <mxPoint x="250" y="1230" />
+              <mxPoint x="249" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-37" value="Collection Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-39" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cluster;" vertex="1" parent="1">
+          <mxGeometry x="206.6" y="1280" width="102.8" height="49.2" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5XcS-FxVcRdtgo1cgTsg-42" target="5XcS-FxVcRdtgo1cgTsg-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-42" value="Queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-46" value="PlayerId&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CountryId&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GameID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;incrementInScore&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1318" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-47" value="PlayerID -&amp;gt; Score&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PlayerId, CountryId, Score&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="1368" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5XcS-FxVcRdtgo1cgTsg-48" value="PlayerId, CountryId, GameId, Score" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1378" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
