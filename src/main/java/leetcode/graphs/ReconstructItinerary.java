@@ -33,7 +33,8 @@ public class  ReconstructItinerary {
         PriorityQueue<String> q = map.get(s);
 
         while(q != null && !q.isEmpty()) {
-            dfs(q.poll());
+            String node = q.poll();
+            dfs(node);
         }
 
         res.addFirst(s);
