@@ -25,7 +25,7 @@ public class MultiplyStrings {
                     // If answer is shorter than result or vice versa, use 0 as the current digit.
                     int digit1 = i < result.size() ? result.get(i) : 0;
                     int digit2 = i < answer.size() ? answer.get(i) : 0;
-                    // Add current digits of both numbers.
+                    // Add current digits of both leetcode.numbers.
                     int sum = digit1 + digit2 + carry;
                     // Set carry equal to the tens place digit of sum.
                     carry = sum / 10;
@@ -86,7 +86,7 @@ public class MultiplyStrings {
             StringBuilder firstNumber = new StringBuilder(num1);
             StringBuilder secondNumber = new StringBuilder(num2);
 
-            // Reverse both the numbers.
+            // Reverse both the leetcode.numbers.
             firstNumber.reverse();
             secondNumber.reverse();
 

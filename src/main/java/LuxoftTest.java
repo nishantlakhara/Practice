@@ -5,7 +5,7 @@ public class LuxoftTest {
     public static void main(final String[] args) {
         //Welcome to this interview!
         //Please write program which will give possibility to find number of unique pairs in array of random integers.
-        //Unique pair is two opposite numbers, like [-2,2], [-6,6] etc. In other words - two numbers with the same
+        //Unique pair is two opposite leetcode.numbers, like [-2,2], [-6,6] etc. In other words - two leetcode.numbers with the same
         //absolute value but different sign.
 
         //Example input:

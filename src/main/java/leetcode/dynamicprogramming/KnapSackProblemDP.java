@@ -1,6 +1,6 @@
 package leetcode.dynamicprogramming;
 
-import java8.Timing;
+import javaexamples.java8.Timing;
 
 public class KnapSackProblemDP {
 

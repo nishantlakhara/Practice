@@ -86,7 +86,7 @@ class SherlockAndAnagramSolution
      * take advantage of alphabetic size is limited and constant, 26 chars, and then work
      * with substring (denote Si) starting from 0 to i, 0 < i < n ( n is string's length)
      * to calculate frequency table, and any substring starting from i and ending j can be
-     * Sj's frequency table - Si's frequency table for those 26 alphabetic numbers.
+     * Sj's frequency table - Si's frequency table for those 26 alphabetic leetcode.numbers.
      * So, the preprocessed frequency table size is O(N) ( N is the length of string)
      * instead of O(N^2) based on each of substrings. For any of substrings, there are only 26
      * calculation to compute for each alphabet number, so the time complexity goes
@@ -155,7 +155,7 @@ class SherlockAndAnagramSolution
      *
      * @frequencyTable - Dictionary<char, int>
      * The frequency table has to be sorted first and then construct
-     * a string with each char in alphabetic numbers concatenated by
+     * a string with each char in alphabetic leetcode.numbers concatenated by
      * its occurrences.
      *
      */

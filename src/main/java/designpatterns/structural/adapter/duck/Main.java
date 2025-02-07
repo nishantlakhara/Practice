@@ -2,6 +2,25 @@ package designpatterns.structural.adapter.duck;
 
 public class Main {
 
+    /**
+     *
+
+     * +--------------------+
+     * |      Duck          |<------------------+
+     * |--------------------|                   |
+     * | + quack()          |                   |
+     * | + fly()            |                   |
+     * +--------------------+                   |
+     *            ^                               |
+     *            |                               |
+     *    +---------------+            +-------------------+      +------------------+
+     *    | MallardDuck   |            | TurkeyAdapter     |      | Turkey           |
+     *    |---------------|            |-------------------|      |------------------|
+     *    | + quack()     |            | + quack()         |      | + gobble()       |
+     *    | + fly()       |            | - turkey: Turkey  |------| + fly()          |
+     *    +---------------+            | + fly()           |      +------------------+
+     *                                 +-------------------+
+     */
     public static void main(String[] args) {
         Duck duck = new MallardDuck();
 
