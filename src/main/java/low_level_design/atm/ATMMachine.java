@@ -4,6 +4,13 @@ public class ATMMachine {
 
     private ATMState state;
 
+    public ATMMachine() {
+    }
+
+    public ATMMachine(ATMState state) {
+        this.state = state;
+    }
+
     public ATMState getState() {
         return state;
     }
@@ -11,6 +18,4 @@ public class ATMMachine {
     public void setState(ATMState state) {
         this.state = state;
     }
-
-
 }

@@ -6,6 +6,7 @@ public class HasCard extends ATMState {
 
     public HasCard(ATMMachine atmMachine, CardService cardService) {
         this.atmMachine = atmMachine;
+        this.cardService = cardService;
     }
 
     @Override

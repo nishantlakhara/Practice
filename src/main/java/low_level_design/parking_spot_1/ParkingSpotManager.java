@@ -28,21 +28,19 @@ public class ParkingSpotManager implements  ParkingManager {
     @Override
     public Payment calculatePayment(Ticket ticket) {
         Payment payment = paymentStrategy.generatePayment(ticket);
-
-
         return payment;
     }
 
     @Override
     public void acknowledgePaymentAndFreeParkinngSpot(Payment payment) {
-        acknowwledgePayment(payment);
+        acknowledgePayment(payment);
         addParkingSpotToAvailableList(payment.getParkingSpot());
     }
 
     private void addParkingSpotToAvailableList(ParkingSpot parkingSpot) {
     }
 
-    private void acknowwledgePayment(Payment payment) {
+    private void acknowledgePayment(Payment payment) {
 
     }
 

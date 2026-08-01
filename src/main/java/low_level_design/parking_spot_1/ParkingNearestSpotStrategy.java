@@ -18,7 +18,7 @@ public class ParkingNearestSpotStrategy implements ParkingStrategy
 
     // Algorithm
     private void populateParkingSpotTreeSet(List<ParkingSpot> parkingSpotList) {
-
+        // Get parking spots from database
     }
 
     @Override

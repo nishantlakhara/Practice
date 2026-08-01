@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // 1.   The vehiicle arrives at thhe parking lot.
-        Vehicle  vehicle  = new Vehicle();
+        Vehicle vehicle  = new Vehicle();
         vehicle.setVehicleId("RJ27CD7976");
         vehicle.setVehicleType(VehicleType.TWO_WHEELER);
 

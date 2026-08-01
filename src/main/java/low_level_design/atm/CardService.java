@@ -6,6 +6,10 @@ import java.util.Map;
 public class CardService {
     private Map<Card, Integer> cardMap;
 
+    public CardService() {
+        this.init();
+    }
+
     public void init() {
         cardMap = new HashMap<>();
         cardMap.put(new Card(1122334455667788l), 1234);
